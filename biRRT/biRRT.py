@@ -1,13 +1,11 @@
 #!/usr/bin/env python
 
-# rrtstar.py
 # This program generates a 
-# asymptotically optimal rapidly exploring random tree (RRT* proposed by Sertac Keraman, MIT) in a rectangular region.
+# asymptotically optimal Bidirectional RRT in a rectangular region.
 #
 # Originally written by Steve LaValle, UIUC for simple RRT in
 # May 2011
-# Modified by Md Mahbubur Rahman, FIU for RRT* in
-# January 2016
+# Modified by Nishant Doshi for Bidirectional RRT*
 
 import sys, random, math, pygame
 from pygame.locals import *
